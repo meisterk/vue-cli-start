@@ -5,6 +5,10 @@
     <input v-model="textString" placeholder="edit me" />
     <p>{{ textString }}</p>
 
+    <h2>Number</h2>
+    <input type="number" v-model.number="zahl" />
+    <p>{{ zahl }}</p>
+
     <h2>Checkbox</h2>
     <input type="checkbox" v-model="angeklickt" />
     <p>{{ angeklickt }}</p>
@@ -35,6 +39,7 @@ export default {
   data() {
     return {
       textString: "hallo",
+      zahl: 0,
       angeklickt: true,
       auswahlString: "oder",
       selectedString: "B",
