@@ -1,5 +1,6 @@
 <template>
   <form>
+    <h1>MyForm</h1>
     <h2>Text</h2>
     <input v-model="textString" placeholder="edit me" />
     <p>{{ textString }}</p>
@@ -44,7 +45,7 @@ export default {
 
 <style scoped>
 form {
-  background-color: chartreuse;
+  background-color: cornsilk;
   border: 1px solid black;
 }
 </style>
