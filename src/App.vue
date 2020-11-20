@@ -1,8 +1,8 @@
 <template>
   <img alt="Logo der GBS Schulen München" src="./assets/logo.png" />
   <MyComponent ueberschrift="Hallo!" />
-  <MyCounter ueberschrift="Zähler1" @gezaehlt="gezaehlt1" />
-  <MyCounter ueberschrift="Zähler2" @gezaehlt="gezaehlt2" />
+  <MyCounter ueberschrift="Zähler 1" @gezaehlt="gezaehlt1" />
+  <MyCounter ueberschrift="Zähler 2" @gezaehlt="gezaehlt2" />
   <p>Gesamtzahl: {{ gesamtzahl }}</p>
   <MyForm />
   <MyComponent ueberschrift="Servus!" />
